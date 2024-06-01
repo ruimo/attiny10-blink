@@ -115,7 +115,7 @@ avrdude: safemode: Fuses OK (E:FF, H:D9, L:9F)
 avrdude done.  Thank you.
 ```
 
-再度テストに挑戦
+Firmwareを書き込んだ方から、JP2のショートピンを外してこれをPCとATtiny10をつないで再度テストに挑戦。
 
 ```
 avrdude -c usbasp -p t10 -t
@@ -185,5 +185,5 @@ avrdude done.  Thank you.
 
 LEDが0.5秒間隔で点滅する。
 
-
+ATtiny10、書き込みも楽だしフルスペック(最適化on)のGCCが使えるし、良いね。
 
