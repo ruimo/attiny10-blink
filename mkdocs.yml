@@ -2,7 +2,7 @@ site_name: ATtiny10
 nav:
   - index.md
   - coffee-mon/index.md
-Theme:
+theme:
   language: ja
   name: material
   palette:
