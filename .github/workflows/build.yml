@@ -16,7 +16,8 @@ jobs:
         run: |
           git config user.name github-actions-bot
           git config user.email github-actions-bot@users.noreply.github.com
-      - run: |
-        git fetch
-        get branch -a
-        ./deploy.sh
+      - name: gh-deploy
+        run: |
+          git fetch
+          get branch -a
+          ./deploy.sh
