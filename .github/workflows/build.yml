@@ -19,5 +19,5 @@ jobs:
       - name: gh-deploy
         run: |
           git fetch
-          get branch -a
+          git branch -a
           ./deploy.sh
