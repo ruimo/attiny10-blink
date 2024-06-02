@@ -10,4 +10,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EXTRA_PACKAGES: build-base
+          CONFIG_FILE: mkdocs.yml
           REQUIREMENTS: requirements.txt
