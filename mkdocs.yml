@@ -1,7 +1,8 @@
 site_name: ATtiny10
 nav:
   - index.md
-theme:
+  - coffee-mon/index.md
+Theme:
   language: ja
   name: material
   palette:
