@@ -1,7 +1,7 @@
 #!/bin/sh
 export U_ID=$(id -u)
 export G_ID=$(id -g)
-docker run -it --rm \
+docker run -t --rm \
     -p 8040:8040 \
     --user $U_ID:$G_ID \
     --workdir="/var/home" \
