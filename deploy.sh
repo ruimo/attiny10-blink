@@ -1,8 +1,10 @@
 #!/bin/sh
+
+# You don't need to deploy manually. GitHub actions will deploy pages automatically.
+
 export U_ID=$(id -u)
 export G_ID=$(id -g)
 docker run -t --rm \
-    -p 8040:8040 \
     --user $U_ID:$G_ID \
     --workdir="/var/home" \
     --env HOME="/var/home" \
